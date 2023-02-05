@@ -16,8 +16,8 @@ def friends(request, friendid):
         print(request.POST)
     return HttpResponse(f"<h1>Ur friends<h1><p>{friendid}</p>")
 
-def pageNotFound(request,exception):
-    return HttpResponseNotFound('<h1>Page not found</h1>')
+def PagenotFound(request,exception):
+    return HttpResponseNotFound('<img src="https://media.licdn.com/dms/image/C5612AQEPYce5KpNLyg/article-cover_image-shrink_720_1280/0/1551659700811?e=2147483647&v=beta&t=O9mBMiF-V12jCRJwaBNDWLKNL8cku2QSoCXtKP3vCHg" alt="#" width="90%">')
 def Forbidden(request,exception):
     return HttpResponseForbidden('<h1>Access is denied </h1>')
 
