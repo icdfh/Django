@@ -25,5 +25,5 @@ def BadRequest(request,exception):
     return HttpResponseBadRequest('<h1>Bad request </h1>')
 
 def ServerError(request):
-    return HttpResponseServerError('<h1>server error </h1>')
+    return HttpResponseServerError('<h1>Server error </h1>')
 
