@@ -1,6 +1,7 @@
 from django import forms
 from django.core.exceptions import ValidationError
 
+
 from .models import *
 
 class AddPostForm(forms.ModelForm):
@@ -22,3 +23,17 @@ class AddPostForm(forms.ModelForm):
             raise ValidationError('Length is bigger 200')
 
         return title
+
+
+        class RegisterUserForm(UserCreationForm):
+            username = forms.CharField(label='Login',widget=forms.TextInput(attrs={'class':'form-input'}))
+            username = forms.CharField(label='Password', widget=forms.PasswordInput(attrs={'class:''form-input'}))
+            username = forms.CharField(label='Confrim Password', widget=forms.PasswordInput(attrs={'class':'form-input'}))
+            class Meta:
+                model = User
+                fields = ('username' , 'password1', 'password2')
+                widgets = {
+                    'username': forms.TextInput(attrs={'class':'form-input'}),
+                    'password1': forms.PasswordInput(attrs={'class': 'form-input'}),
+                    'password2': forms.PasswordInput(attrs={'class':'form-input'}),
+                }

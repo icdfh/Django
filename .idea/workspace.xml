@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NVzmxEJIEFZicGaYwd2EKyioxp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Django/djsite2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Django\djsite2\supforstud\support\static\support\images" />
+      <recent name="C:\Users\Artem\PycharmProjects\djsite2\supforstud\support" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="" />
+      <created>1679764199798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679764199798</updated>
+      <workItem from="1679764201262" duration="2085000" />
+      <workItem from="1679766846315" duration="36000" />
+      <workItem from="1679767191949" duration="98000" />
+      <workItem from="1679767395144" duration="1037000" />
+      <workItem from="1679768559098" duration="241000" />
+      <workItem from="1679768856250" duration="18160000" />
+      <workItem from="1679837881825" duration="11080000" />
+      <workItem from="1679866689415" duration="591000" />
+      <workItem from="1679904123445" duration="3861000" />
+      <workItem from="1680440338776" duration="4041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

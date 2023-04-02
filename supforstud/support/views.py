@@ -5,6 +5,7 @@ from django.http import HttpResponse, HttpResponseNotFound, HttpResponseForbidde
     HttpResponseServerError, Http404
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.forms import  UserCreationForm
 
 from .form import *
 from .models import *
@@ -148,3 +149,13 @@ def BadRequest(request,exception):
 
 def ServerError(request):
     return HttpResponseServerError('<h1>Ошибка сервера </h1>')
+
+class RegisterUser(DataMixin,CreateView):
+    form_class = UserCreationForm
+    template_name = 'support/register.html'
+    success_url = reverse_lazy('login')
+
+    def get_context_data(self, * , object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        c_def = self.get_user_context(title="Register")
+        return dict(list(context.items()) + list(c_def.items()))
