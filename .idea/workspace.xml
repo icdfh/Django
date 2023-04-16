@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="qwerty">
+      <change afterPath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supforstud/support/templates/support/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djsite2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djsite2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/support/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/images/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/support/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/support/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2709af06-c8f4-4348-93a5-4caeb927c051" />
+        <option name="url" value="https://github.com/icdfh/Django" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,11 +71,15 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Django\djsite2\djsite2" />
+      <recent name="C:\Django\djsite2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Django\djsite2\supforstud\support\static\support\images" />
       <recent name="C:\Users\Artem\PycharmProjects\djsite2\supforstud\support" />
@@ -82,8 +102,24 @@
       <workItem from="1679837881825" duration="11080000" />
       <workItem from="1679866689415" duration="591000" />
       <workItem from="1679904123445" duration="3861000" />
-      <workItem from="1680440338776" duration="4041000" />
+      <workItem from="1680440338776" duration="4797000" />
+      <workItem from="1680452817101" duration="55000" />
+      <workItem from="1680764667546" duration="1095000" />
+      <workItem from="1680766646892" duration="594000" />
+      <workItem from="1681362784054" duration="307000" />
+      <workItem from="1681363146987" duration="460000" />
+      <workItem from="1681363628399" duration="60000" />
+      <workItem from="1681627117687" duration="87000" />
+      <workItem from="1681628398156" duration="9480000" />
     </task>
+    <task id="LOCAL-00001" summary="qwerty">
+      <created>1680452098735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680452098735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +135,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/djsite2" />
+    </ignored-roots>
+    <MESSAGE value="qwerty" />
+    <option name="LAST_COMMIT_MESSAGE" value="qwerty" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djsite2$form.coverage" NAME="form Coverage Results" MODIFIED="1681631221071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supforstud/support" />
   </component>
 </project>
