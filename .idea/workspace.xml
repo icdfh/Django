@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="qwerty">
-      <change afterPath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supforstud/support/templates/support/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djsite2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djsite2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supforstud/support/static/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supforstud/templates/admin/base_site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/supforstud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +100,7 @@
       <workItem from="1681363146987" duration="460000" />
       <workItem from="1681363628399" duration="60000" />
       <workItem from="1681627117687" duration="87000" />
-      <workItem from="1681628398156" duration="9480000" />
+      <workItem from="1681628398156" duration="11672000" />
     </task>
     <task id="LOCAL-00001" summary="qwerty">
       <created>1680452098735</created>
@@ -119,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680452098735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="qwerty">
+      <created>1681664822554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681664822554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
