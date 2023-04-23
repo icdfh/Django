@@ -13,11 +13,21 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from support.views import *
+from supforstud import settings
 
+
+from django.conf.urls.static import static
+from django.contrib import admin
+from django.urls import path
+
+from supforstud import settings
+
+
+from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -25,6 +35,7 @@ urlpatterns = [
 
     path('',include('support.urls'))
 ]
+
 # if settings.DEBUG:
 #     import debug_toolbar
 #
@@ -33,3 +44,12 @@ urlpatterns = [
 #     ] + urlpatterns
 #
 #     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('captcha/', include('captcha.urls')),
+    path('', include('support.urls')),
+    path('api/v1/suplist/', SupportAPIView.as_view()),
+    path('api/v1/suplist/<int:pk>', SupportAPIView.as_view()),
+
+]

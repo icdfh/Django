@@ -3,6 +3,7 @@ from django.urls import reverse
 
 
 class Support(models.Model):
+    objects = None
     title = models.CharField(max_length=255,verbose_name= "Title")
     slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name="URL")
     content = models.TextField(blank=False,verbose_name="Content")

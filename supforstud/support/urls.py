@@ -2,7 +2,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path, re_path, include
 from django.views.decorators.cache import cache_page
+
+from . import admin
 from .views import *
+
 
 urlpatterns = [
     path('', (SupportHome.as_view()),name='home'),
@@ -18,20 +21,10 @@ urlpatterns = [
 
 ]
 
-
-if settings.DEBUG:
-    # from django.urls import include, path
-    #
-    # urlpatterns = [
-    #     # ...
-    #     path('__debug__/', include('debug_toolbar.urls')),
-    # ]
-
-
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
 handler404=pageNotFound
 handler403=Forbidden
 handler400=BadRequest
 handler500=ServerError
+
+#if settings.DEBUG:
+    #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
