@@ -217,6 +217,10 @@ def logout_user(request):
 #
 #     return render(request, 'support/home.html', context=context)
 
+class SupportAPIList(generics.ListCreateAPIView):
+    queryset = Support.objects.all()
+    serializer_class = SupportSerializer
+
 
 class SupportAPIView(APIView):
     def get(self, request):
