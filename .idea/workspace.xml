@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="qwerty">
-      <change afterPath="$PROJECT_DIR$/supforstud/support/static/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supforstud/templates/admin/base_site.html" afterDir="false" />
+    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="admin panel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/static/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/static/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/aboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Django/djsite2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Django/djsite2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Django\djsite2\djsite2" />
@@ -100,7 +105,12 @@
       <workItem from="1681363146987" duration="460000" />
       <workItem from="1681363628399" duration="60000" />
       <workItem from="1681627117687" duration="87000" />
-      <workItem from="1681628398156" duration="11672000" />
+      <workItem from="1681628398156" duration="17142000" />
+      <workItem from="1681684896806" duration="637000" />
+      <workItem from="1681718304326" duration="1990000" />
+      <workItem from="1681739346334" duration="601000" />
+      <workItem from="1681796284140" duration="677000" />
+      <workItem from="1681974369707" duration="5967000" />
     </task>
     <task id="LOCAL-00001" summary="qwerty">
       <created>1680452098735</created>
@@ -116,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681664822554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="admin panel">
+      <created>1681667141882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681667141882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +155,8 @@
       <path value="$PROJECT_DIR$/djsite2" />
     </ignored-roots>
     <MESSAGE value="qwerty" />
-    <option name="LAST_COMMIT_MESSAGE" value="qwerty" />
+    <MESSAGE value="admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djsite2$form.coverage" NAME="form Coverage Results" MODIFIED="1681631221071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supforstud/support" />
