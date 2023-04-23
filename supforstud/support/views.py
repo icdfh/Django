@@ -218,33 +218,46 @@ def logout_user(request):
 #     return render(request, 'support/home.html', context=context)
 
 
-def put(self, request, *args, **kwargs):
-    pk = kwargs.get("pk", None)
-    if not pk:
-        from requests import Response
-        return Response({"error": "Method PUT not allowed"})
+class SupportAPIView(APIView):
+    def get(self, request):
 
-    try:
-        instance = Support.objects.get(pk=pk)
-    except:
-        return Response({"error": "Object does not exists"})
+        s = Support.objects.all()
+        return Response({'posts': SupportSerializer(s, many=True).data})
 
-    serializer = SupportSerializer(data=request.data, instance=instance)
-    serializer.is_valid(raise_exception=True)
-    serializer.save()
-    return Response({"post": serializer.data})
+    def post(self, request):
+        serializer = SupportSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+
+        return Response({'post': serializer.data})
 
 
-def delete(self, request, *args, **kwargs):
-    pk = kwargs.get("pk", None)
-    if not pk:
-        return Response({"error": "Method DELETE not allowed"})
+    def put(self, request, *args, **kwargs):
+        pk = kwargs.get("pk", None)
+        if not pk:
+            return Response({"error": "Method PUT not allowed"})
 
-    try:
-        instance = Support.objects.get(pk=pk)
-    except:
-        return Response({"error": "Object does not exists"})
-    instance.delete()
+        try:
+            instance = Support.objects.get(pk=pk)
+        except:
+            return Response({"error": "Object does not exists"})
 
-    return Response({"post": "delete post " + str(pk)})
+        serializer = SupportSerializer(data=request.data, instance=instance)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({"post": serializer.data})
 
+    def delete(self, request, *args, **kwargs):
+        pk = kwargs.get("pk", None)
+        if not pk:
+            return Response({"error": "Method DELETE not allowed"})
+
+
+        try:
+            instance = Support.objects.get(pk=pk)
+        except:
+            return Response({"error": "Object does not exists"})
+        instance.delete()
+
+
+        return Response({"post": "delete post " + str(pk)})

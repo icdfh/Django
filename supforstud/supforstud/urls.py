@@ -23,6 +23,7 @@ from supforstud import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
+from support.views import SupportAPIView
 
 from supforstud import settings
 
