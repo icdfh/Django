@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
@@ -23,9 +24,8 @@ from supforstud import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
-from support.views import SupportAPIList, SupportAPIUpdate
 from support.views import *
-
+from rest_framework import routers
 from supforstud import settings
 
 
@@ -46,13 +46,19 @@ urlpatterns = [
 #     ] + urlpatterns
 #
 #     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
+from django.urls import re_path as url
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('captcha/', include('captcha.urls')),
     path('', include('support.urls')),
-    path('api/v1/suplist/', SupportAPIList.as_view()),
-    path('api/v1/suplist/<int:pk>', SupportAPIUpdate.as_view()),
-    path('api/v1/supdetail/<int:pk>', SupportAPIDetailView.as_view()),
+    url(r'^', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 
+    # path('api/v1/suplist/', SupportViewSet.as_view({'get': 'list'})),
+    # path('api/v1/suplist/<int:pk>', SupportViewSet.as_view({'put': 'update'})),
 ]
+
+router = routers.DefaultRouter()
+#makes sure that the API endpoints work
+router.register(r'api/sup', views.PatientViewSet)
+admin.autodiscover()

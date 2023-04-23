@@ -1,5 +1,5 @@
 from django.forms import model_to_dict
-from rest_framework import generics
+from rest_framework import generics, viewsets
 from django.contrib.auth import logout, login
 from django.contrib.auth.views import LoginView
 from django.core.paginator import Paginator
@@ -218,19 +218,25 @@ def logout_user(request):
 #
 #     return render(request, 'support/home.html', context=context)
 
-class SupportAPIList(generics.ListCreateAPIView):
+
+class SupportViewSet(viewsets.ModelViewSet):
     queryset = Support.objects.all()
     serializer_class = SupportSerializer
 
 
-class SupportAPIUpdate(generics.ListCreateAPIView):
-    queryset = Support.objects.all()
-    serializer_class = SupportSerializer
-
-
-class SupportAPIDetailView(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Support.objects.all()
-    serializer_class = SupportSerializer
+# class SupportAPIList(generics.ListCreateAPIView):
+#     queryset = Support.objects.all()
+#     serializer_class = SupportSerializer
+#
+#
+# class SupportAPIUpdate(generics.ListCreateAPIView):
+#     queryset = Support.objects.all()
+#     serializer_class = SupportSerializer
+#
+#
+# class SupportAPIDetailView(generics.RetrieveUpdateDestroyAPIView):
+#     queryset = Support.objects.all()
+#     serializer_class = SupportSerializer
 
 # class SupportAPIView(APIView):
 #     def get(self, request):
