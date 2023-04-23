@@ -23,7 +23,8 @@ from supforstud import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
-from support.views import SupportAPIView, SupportAPIList
+from support.views import SupportAPIList, SupportAPIUpdate
+from support.views import *
 
 from supforstud import settings
 
@@ -51,6 +52,7 @@ urlpatterns = [
     path('captcha/', include('captcha.urls')),
     path('', include('support.urls')),
     path('api/v1/suplist/', SupportAPIList.as_view()),
-    path('api/v1/suplist/<int:pk>', SupportAPIList.as_view()),
+    path('api/v1/suplist/<int:pk>', SupportAPIUpdate.as_view()),
+    path('api/v1/supdetail/<int:pk>', SupportAPIDetailView.as_view()),
 
 ]
