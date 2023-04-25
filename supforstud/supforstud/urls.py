@@ -12,6 +12,7 @@ from django.urls import path
 
 from supforstud import settings
 from support.views import *
+import debug_toolbar
 
 from django.urls import path, include
 
@@ -55,7 +56,7 @@ urlpatterns = [
 ]
 
 if settings.DEBUG:
-    import debug_toolbar
+
 
     urlpatterns = [
         path('__debug__/', include(debug_toolbar.urls)),

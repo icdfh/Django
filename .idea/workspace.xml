@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="Viewsets и ModelViewSet">
-      <change afterPath="$PROJECT_DIR$/supforstud/media/photos/2023/04/23/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supforstud/media/photos/2023/04/23/photo_YVf0POl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supforstud/media/photos/2023/04/24/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supforstud/support/permissions.py" afterDir="false" />
+    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/supforstud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +113,8 @@
       <workItem from="1681974369707" duration="5967000" />
       <workItem from="1682242710029" duration="14838000" />
       <workItem from="1682323357071" duration="3518000" />
+      <workItem from="1682405777795" duration="293000" />
+      <workItem from="1682424876692" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="qwerty">
       <created>1680452098735</created>
@@ -184,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682263581646</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Viewsets и ModelViewSet">
+      <created>1682405789591</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682405789591</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api.">
+      <created>1682405907816</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682405907816</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +221,8 @@
     <MESSAGE value="ModelSerializer" />
     <MESSAGE value="UpdateAPIView и RetrieveUpdateDestroyAPIView" />
     <MESSAGE value="Viewsets и ModelViewSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Viewsets и ModelViewSet" />
+    <MESSAGE value="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api." />
+    <option name="LAST_COMMIT_MESSAGE" value="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djsite2$form.coverage" NAME="form Coverage Results" MODIFIED="1681631221071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supforstud/support" />
