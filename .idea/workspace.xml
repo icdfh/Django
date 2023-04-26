@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api.">
+    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="Debug on">
+      <change afterPath="$PROJECT_DIR$/supforstud/support/static/support/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supforstud/support/static/support/js/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/aboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/addpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/addpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +70,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Django/djsite2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Django/djsite2/supforstud/support/static/support/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -72,6 +82,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Django\djsite2\supforstud\support\static\support\images" />
       <recent name="C:\Django\djsite2\djsite2" />
       <recent name="C:\Django\djsite2" />
     </key>
@@ -114,7 +125,10 @@
       <workItem from="1682242710029" duration="14838000" />
       <workItem from="1682323357071" duration="3518000" />
       <workItem from="1682405777795" duration="293000" />
-      <workItem from="1682424876692" duration="327000" />
+      <workItem from="1682424876692" duration="10390000" />
+      <workItem from="1682436332183" duration="1703000" />
+      <workItem from="1682503258814" duration="10838000" />
+      <workItem from="1682514248554" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="qwerty">
       <created>1680452098735</created>
@@ -193,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682405907816</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Debug on">
+      <created>1682425436566</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682425436566</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +243,8 @@
     <MESSAGE value="UpdateAPIView и RetrieveUpdateDestroyAPIView" />
     <MESSAGE value="Viewsets и ModelViewSet" />
     <MESSAGE value="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api." />
-    <option name="LAST_COMMIT_MESSAGE" value="Посследний коммит это permissions,на дедлайн не уложился.&#10;Причина была ошибка с api." />
+    <MESSAGE value="Debug on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug on" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djsite2$form.coverage" NAME="form Coverage Results" MODIFIED="1681631221071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supforstud/support" />

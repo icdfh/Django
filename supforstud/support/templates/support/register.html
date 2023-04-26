@@ -3,19 +3,41 @@
 
 {% block content %}
 
-<h1>
-  {{title}}
-</h1>
-<form method="post">
-  {% csrf_token %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-holder">
+            <h2>Create New account</h2>
+            <form method="post" class="form">
+                    {% csrf_token %}
+                {% for f in form %}
 
-  {% for f in form %}
-  <p><label class="form-label" for="{{f.id_for_label}}">{{f.label}}:</label>{{f}}</p>
-  <div class="form-error">{{f.errors}}</div>
-  {% endfor %}
+                <div class="form-group">
+                    <label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>
+                    {{ f }}
+                </div>
+                <div class="form-error">{{ f.errors }}</div>
+                {% endfor %}
 
+                <div class="form-group">
+                   <button type="submit">Sign Up</button>
+                </div>
 
-    <button class="custom-btn btn-1" >Registration</button>
-</form>
+                <div class="form-group">
+                    <a href="{% url 'login' %}" class="right-link">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
 
-{% endblock %}
+{% endblock %}{% csrf_token %}

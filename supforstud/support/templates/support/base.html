@@ -5,6 +5,7 @@
 <head>
 	<title>{{title}}</title>
 	<link type="text/css" href="{% static 'support/css/styles.css' %}" rel="stylesheet" />
+    <script type="text/javascript" src="{% static 'support/js/contact.js' %}"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="shortcut icon" href="{% static 'support/images/main.ico' %}" type="image/x-icon"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
 {% block mainmenu %}
 		<div class="header">
 			<ul id="mainmenu" class="mainmenu">
-			<li class="logo">SFS<a href="{% url 'home' %}"><div class="logo"></div></a></li>
+			<li class="logo"><a href="{% url 'home' %}">SFS<div class="logo"></div></a></li>
 {% for m in menu %}
 
 			<li><a href="{% url m.url_name %}">{{m.title}}</a></li>
@@ -113,20 +114,16 @@
             <div class="useful-links">
                 <div class="footer-title">Useful Links</div>
                 <ul>
-                    <li>Courses</li>
-                    <li>Sign In</li>
+                    <li>Main</li>
+                    <li>About</li>
                     <li>About Us</li>
-                    <li>Become an Affiliate</li>
-                    <li>Advertise with Us</li>
-                    <li>Terms and Conditions</li>
+
                 </ul>
             </div>
             <div class="help-sec">
                 <div class="footer-title">Help</div>
                 <ul>
-                    <li>Help Me</li>
                     <li>Feedback</li>
-                    <li>Report a Issue / Bug</li>
                 </ul>
             </div>
             <div class="g-i-t">
