@@ -666,10 +666,10 @@ body{
     padding-left: 40px;
 }
 .form-group img{
-    width: 26px;
-    position: absolute;
-    left: 15px;
-    top: 13px;
+    width: 150px;
+	position: inherit;
+    left: -30px;
+    top: -25px;
 }
 
 .form-group button{

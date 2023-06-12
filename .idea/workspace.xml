@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="jwt token, pagination">
+    <list default="true" id="8c803e66-8a78-4a58-940a-ca488c4cd084" name="Changes" comment="Остатки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/supforstud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/supforstud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/static/support/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/templates/support/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supforstud/support/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/supforstud/support/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,8 @@
       <workItem from="1682514248554" duration="9320000" />
       <workItem from="1682717851237" duration="1204000" />
       <workItem from="1682722774585" duration="602000" />
-      <workItem from="1683055022115" duration="14770000" />
+      <workItem from="1683055022115" duration="16458000" />
+      <workItem from="1686492233070" duration="13648000" />
     </task>
     <task id="LOCAL-00001" summary="qwerty">
       <created>1680452098735</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682517297872</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Остатки">
+      <created>1683176686561</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683176686561</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +265,8 @@
     <MESSAGE value="Debug on" />
     <MESSAGE value="last change" />
     <MESSAGE value="jwt token, pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="jwt token, pagination" />
+    <MESSAGE value="Остатки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Остатки" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djsite2$form.coverage" NAME="form Coverage Results" MODIFIED="1681631221071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/supforstud/support" />

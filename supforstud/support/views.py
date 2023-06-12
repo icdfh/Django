@@ -225,11 +225,11 @@ def sendEmail(request):
 #     def form_valid(self, form):
 #         print(form.cleaned_data)
 #         return redirect('home')
-#
+
 
 
 def pageNotFound(request, exception):
-    return HttpResponseNotFound('<h1>Страница не найдена</h1>')
+    return HttpResponseNotFound('<img src="https://cdn4.wpbeginner.com/wp-content/uploads/2009/09/best-404-error-page-design-examples-for-wordpress-og.png">')
 
 
 def Forbidden(request, exception):

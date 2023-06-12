@@ -40,6 +40,7 @@ class RegisterUserForm(UserCreationForm):
 class LoginUserForm(AuthenticationForm):
     username = forms.CharField(label='Login', widget=forms.TextInput(attrs={'class': 'form-group','placeholder':'Enter username'}))
     password = forms.CharField(label='Password', widget=forms.PasswordInput(attrs={'class': 'form-group ','placeholder':'Enter password'}))
+    captcha = CaptchaField()
 
 class ContactForm(forms.Form):
     name = forms.CharField(label='Name', max_length=255)

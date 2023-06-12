@@ -5,7 +5,6 @@
 <head>
 	<title>{{title}}</title>
 	<link type="text/css" href="{% static 'support/css/styles.css' %}" rel="stylesheet" />
-    <script type="text/javascript" src="{% static 'support/js/contact.js' %}"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="shortcut icon" href="{% static 'support/images/main.ico' %}" type="image/x-icon"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,20 +12,34 @@
 <body>
 <table class="table-page" border=0 cellpadding="0" cellspacing="0">
 <tr><td valign=top>
-{% block mainmenu %}
+
+	{% block mainmenu %}
 		<div class="header">
 			<ul id="mainmenu" class="mainmenu">
+				{% if request.user.is_authenticated %}
 			<li class="logo"><a href="{% url 'home' %}">SFS<div class="logo"></div></a></li>
 {% for m in menu %}
+				<li><a href="{% url m.url_name %}">{{m.title}}</a></li>
 
-			<li><a href="{% url m.url_name %}">{{m.title}}</a></li>
+
 
 {% endfor %}
-			{% if request.user.is_authenticated %}
-			<li class="last">{{user.username}} | <a href="{% url 'logout' %}">Log out</a></li>
-			{% else %}
-			<li class="last"><a href="{% url 'register' %}">Sign up</a> | <a href="{% url 'login' %}">Sign in</a></li>
-			{% endif %}
+				{% if request.user.is_superuser %}
+				<li><a href="{% url 'add_page' %}">Add Page</a></li>
+				{% endif %}
+				{% else %}
+				<li class="logo"><a href="#">SFS<div class="logo"></div></a></li>
+				<li class="logo"><a href="{% url 'about' %}">About us<div class="logo"></div></a></li>
+				<li class="logo"><a href="{% url 'contact' %}">Contacts<div class="logo"></div></a></li>
+
+
+				{% endif %}
+
+				{% if request.user.is_authenticated %}
+				<li class="last"> {{user.username}} | <a href="{% url 'logout' %}">Logout</a></li>
+				{% else %}
+				<li class="last"><a href="{% url 'register' %}">Registration</a> | <a href="{% url 'login' %}">Login</a></li>
+				{% endif %}
 			</ul>
 			<div class="clear"></div>
 		</div>
@@ -35,7 +48,10 @@
 
 <table class="table-content" border=0 cellpadding="0" cellspacing="0">
 <tr>
+
 <!-- Sidebar слева -->
+	{% if request.user.is_authenticated %}
+
 	<td valign="top" class="left-chapters">
 	<ul id="leftchapters">
 {% if cat_selected == 0 %}
@@ -58,6 +74,9 @@
 	</ul>
 </td>
 <!-- Конец Sidebar'а -->
+	{% else %}
+
+	{% endif %}
 <td valign="top" class="content">
 	<!-- Хлебные крошки -->
 	{% block breadcrumbs %}
@@ -67,6 +86,8 @@
 	<div class="content-text">
 {% block content %}
 {% endblock %}
+		{% if request.user.is_authenticated %}
+
 		{% if page_obj.has_other_pages %}
 <nav class="list-pages">
     <ul>
@@ -77,6 +98,7 @@
 {% endif %}
 
         {% for p in paginator.page_range %}
+
 		{% if page_obj.number == p %}
         <li class="page-num page-num-selected">{{ p }}</li>
 		{% elif p >= page_obj.number|add:-2 and p <= page_obj.number|add:2  %}
@@ -96,7 +118,10 @@
 </nav>
 {% endif %}
 	</div>
+	{% else %}
+	{% endif %}
 <!-- Конец блока контента -->
+
 
 </td></tr></table>
 </td></tr>
@@ -128,7 +153,9 @@
             </div>
             <div class="g-i-t">
                 <div class="footer-title">Get in Touch</div>
-                <form action="/" method="post" class="space-y-2">
+                <form  class="space-y-2">
+					                    {% csrf_token %}
+
                     <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
                     <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
                     <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
